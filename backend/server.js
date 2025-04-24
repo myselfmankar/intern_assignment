@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-core");
 const path = require("path");
 const app = express();
 const port = 3000;
